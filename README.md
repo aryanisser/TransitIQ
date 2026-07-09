@@ -1,81 +1,213 @@
 # 🚚 TransitIQ – AI Fleet Intelligence & Smart Vehicle Tracking Platform
 
-TransitIQ is a modern AI-powered fleet management platform designed to provide real-time vehicle tracking, intelligent analytics, driver monitoring, and live operational insights. The platform combines interactive dashboards, live GPS visualization, WebSocket-based communication, and AI-driven fleet intelligence to help organizations efficiently monitor and manage their transportation systems.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-blue?logo=react" />
+  <img src="https://img.shields.io/badge/Vite-Frontend-purple?logo=vite" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-Backend-green?logo=springboot" />
+  <img src="https://img.shields.io/badge/WebSocket-Real--Time-orange" />
+  <img src="https://img.shields.io/badge/License-MIT-blue" />
+</p>
 
-✨ Features
-📊 Interactive Analytics Dashboard
-🚗 Real-time Fleet Tracking
-🗺️ Live GPS Map Visualization
-👨‍✈️ Driver Tracking & Monitoring
-📈 Fleet Performance Analytics
-⚡ Live Updates using WebSockets
-🤖 AI-powered Fleet Intelligence
-🚨 Safety Alerts & Notifications
-🔍 Vehicle Search & Filtering
-📱 Responsive Modern UI
-🔐 Secure Authentication System
-🌐 Production-ready Deployment
+A modern **AI-powered Fleet Management System** that enables real-time vehicle monitoring, live GPS tracking, driver surveillance, fleet analytics, and intelligent operational insights through an interactive dashboard.
 
-## Technologies
+---
 
-- **Spring Boot** — application framework
-- **Netty Socket.IO** — real-time client communication
-- **JUnit / Mockito** — tests
-- **MongoDB** — persistence for vehicles and tracking data
-- **Spring AOP** — cross-cutting concerns such as validation around service calls
+## 🌐 Live Demo
 
-## Prerequisites
+🔗 **Frontend:** https://transit-iq-live-aryan.vercel.app/
 
-- Java 17+
-- Maven (or use the included `mvnw` wrapper)
-- A MongoDB instance (local or hosted)
+> Replace the above URL with your deployed Vercel link.
 
-## Getting started
+---
 
-1. **Clone this repository** (after you create it on GitHub under your account):
+## 📸 Preview
 
-   ```bash
-   git clone https://github.com/theparamvrsingh/fleet-analytics-tracking-backend.git
-   cd fleet-analytics-tracking-backend
-   ```
+> Add screenshots inside an `assets/` folder and update the paths below.
 
-2. **Configure MongoDB** — set `MONGODB_URI` in your environment, for example:
+```
+assets/
+│── dashboard.png
+│── vehicles.png
+│── livemap.png
+│── drivertracker.png
+```
 
-   ```bash
-   export MONGODB_URI=mongodb://localhost:27017
-   ```
+```md
+![Dashboard](assets/dashboard.png)
 
-   You can also define `MONGODB_URI` in `src/main/resources/application.properties` for local development (avoid committing secrets).
+![Vehicles](assets/vehicles.png)
 
-3. **Build**:
+![Live Map](assets/livemap.png)
 
-   ```bash
-   ./mvnw clean install
-   ```
+![Driver Tracker](assets/drivertracker.png)
+```
 
-4. **Run**:
+---
 
-   ```bash
-   ./mvnw spring-boot:run
-   ```
+# ✨ Features
 
-5. **Open** [http://localhost:8080](http://localhost:8080) in a browser (and ensure Socket.IO is configured for port `8082` if you use that client).
+- 🚗 Real-time Fleet Tracking
+- 📍 Interactive GPS Live Map
+- 🤖 AI Fleet Intelligence Dashboard
+- 📊 Fleet Analytics
+- 👨‍✈️ Driver Tracking System
+- ⚡ Live Vehicle Updates
+- 📈 Speed Monitoring
+- 🚨 Safety Alert Management
+- 🔔 Notification System
+- 🔍 Vehicle Search
+- 📱 Responsive Dashboard
+- 🔐 Secure Authentication
+- 🌍 Modern Enterprise UI
 
-## Publishing to GitHub
+---
 
+# 🛠 Tech Stack
 
-1. On GitHub, create a new empty repository (for example `fleet-analytics-tracking-backend`).
-2. From this project directory:
+## Frontend
 
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: Fleet Analytics & Tracking Backend"
-   git branch -M main
-   git remote add origin https://github.com/theparamvrsingh/fleet-analytics-tracking-backend.git
-   git push -u origin main
-   ```
+- React.js
+- Vite
+- JavaScript (ES6)
+- Tailwind CSS
+- Axios
+- React Router
+- Leaflet Maps
+- STOMP.js
+- SockJS
+- Socket.IO Client
+- Recharts
 
-## License
+## Backend
 
-This project is licensed under the [MIT License](LICENSE).
+- Spring Boot
+- Java
+- Maven
+- REST APIs
+- WebSocket
+
+## Deployment
+
+- Vercel
+- GitHub
+
+---
+
+# 📂 Project Structure
+
+```
+TransitIQ
+│
+├── frontend
+│   ├── src
+│   ├── public
+│   ├── package.json
+│   └── vite.config.js
+│
+├── backend
+│   ├── src
+│   ├── pom.xml
+│   └── application.properties
+│
+└── README.md
+```
+
+---
+
+# 🚀 Getting Started
+
+## Clone Repository
+
+```bash
+git clone https://github.com/aryanisser/TransitIQ.git
+```
+
+```
+cd TransitIQ
+```
+
+---
+
+## Frontend
+
+```bash
+cd frontend
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run
+
+```bash
+npm run dev
+```
+
+---
+
+## Backend
+
+```bash
+cd backend
+```
+
+Run Spring Boot
+
+```bash
+mvn spring-boot:run
+```
+
+---
+
+# 📊 Key Modules
+
+- Dashboard
+- Vehicle Management
+- Live GPS Tracking
+- Driver Tracker
+- AI Insights
+- Fleet Analytics
+- Safety Alerts
+- Settings
+
+---
+
+# 🎯 Future Improvements
+
+- AI Driver Behaviour Detection
+- Predictive Vehicle Maintenance
+- Route Optimization
+- Fuel Consumption Analytics
+- Mobile Application
+- Geofencing
+- Push Notifications
+- Cloud Deployment
+
+---
+
+# 👨‍💻 Developed By
+
+## Aryan Isser
+
+Final Year B.Tech (Computer Science Engineering)
+
+### Connect With Me
+
+- 📧 Email: **aryanisser@gmail.com**
+- 💼 LinkedIn: https://linkedin.com/in/aryanisser
+- 💻 GitHub: https://github.com/aryanisser
+
+---
+
+# ⭐ If you like this project
+
+Please consider giving it a **Star ⭐** on GitHub.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
