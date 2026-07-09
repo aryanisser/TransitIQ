@@ -1,12 +1,20 @@
-# Fleet Analytics & Tracking Backend
+# 🚚 TransitIQ – AI Fleet Intelligence & Smart Vehicle Tracking Platform
 
-This Spring Boot application provides a platform for tracking vehicles in real time. It supports managing vehicle information, monitoring locations, and analyzing historical data. The system is designed to be scalable, efficient, and easy to integrate with fleet management solutions.
+TransitIQ is a modern AI-powered fleet management platform designed to provide real-time vehicle tracking, intelligent analytics, driver monitoring, and live operational insights. The platform combines interactive dashboards, live GPS visualization, WebSocket-based communication, and AI-driven fleet intelligence to help organizations efficiently monitor and manage their transportation systems.
 
-## Features
-
-- **Vehicle management**: Add, update, and delete vehicle information such as make, model, registration details, and ownership information.
-- **Real-time tracking**: Monitor vehicle locations with WebSocket and Socket.IO style real-time updates.
-- **REST API**: HTTP APIs for integration with other systems and applications.
+✨ Features
+📊 Interactive Analytics Dashboard
+🚗 Real-time Fleet Tracking
+🗺️ Live GPS Map Visualization
+👨‍✈️ Driver Tracking & Monitoring
+📈 Fleet Performance Analytics
+⚡ Live Updates using WebSockets
+🤖 AI-powered Fleet Intelligence
+🚨 Safety Alerts & Notifications
+🔍 Vehicle Search & Filtering
+📱 Responsive Modern UI
+🔐 Secure Authentication System
+🌐 Production-ready Deployment
 
 ## Technologies
 
